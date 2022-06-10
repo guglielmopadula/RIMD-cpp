@@ -1,7 +1,7 @@
 # RIMD Representation
 
 An implementation of [Efficient and Flexible Deformation Representation for
-Data-Driven Surface Modeling](https://users.cs.cf.ac.uk/Yukun.Lai/papers/DeformationTOG2016.pdf) forked from [here](https://github.com/Humberto1015/libigl-rimd-representation]).
+Data-Driven Surface Modeling](https://users.cs.cf.ac.uk/Yukun.Lai/papers/DeformationTOG2016.pdf) forked from [here](https://github.com/Humberto1015/libigl-rimd-representation).
 
 
 ## Dependencies
