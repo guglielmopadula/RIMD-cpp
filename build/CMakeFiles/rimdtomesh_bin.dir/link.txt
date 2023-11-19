@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/rimdtomesh_bin.dir/src/mesh.cpp.o CMakeFiles/rimdtomesh_bin.dir/src/rimd.cpp.o CMakeFiles/rimdtomesh_bin.dir/src/rimdtomesh.cpp.o -o rimdtomesh_bin  _deps/glad-build/libglad.a /usr/lib/x86_64-linux-gnu/libOpenGL.so _deps/glfw-build/src/libglfw3.a -Wl,-Bstatic -lrt -Wl,-Bdynamic -lm -ldl 

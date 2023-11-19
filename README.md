@@ -11,23 +11,26 @@ The only dependencies are the C++ stl, [eigen](https://eigen.tuxfamily.org/index
 
 ## Compile
 
-To compile first add all the dependencies to che C++ compiler include path and then
+Compile this project using the standard cmake routine:
 ```
-sudo sh install.sh
+    mkdir build
+    cd build
+    cmake ..
+    make
 ```
-This will compile the two programs and copy them to /usr/local/bin.
+This should find and build the dependencies and create two binaries `rimdtomesh_bin` and `meshtorimd_bin` .
 
 
 ## How to run
 Program 1:
 ```
-meshtorimd mesh0.ply mesh1.ply rimd.txt
+meshtorimd_bin mesh0.ply mesh1.ply rimd.txt
 ```
 this will write the rimd feature to rimd.txt
 
 Program 2:
 ```
-meshtorimd mesh0.ply rimd.txt out.ply
+meshtorimd_bin mesh0.ply rimd.txt out.ply
 ```
 this will reconstruct the mesh from the rimd to out.ply
 
